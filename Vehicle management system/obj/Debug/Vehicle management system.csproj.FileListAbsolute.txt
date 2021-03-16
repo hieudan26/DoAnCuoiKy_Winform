@@ -1,0 +1,36 @@
+E:\HK2_21\Lập trình trên Window HK2_21\DoAnCuoiKi\Vehicle management system\Vehicle management system\bin\Debug\Vehicle management system.exe.config
+E:\HK2_21\Lập trình trên Window HK2_21\DoAnCuoiKi\Vehicle management system\Vehicle management system\bin\Debug\Vehicle management system.exe
+E:\HK2_21\Lập trình trên Window HK2_21\DoAnCuoiKi\Vehicle management system\Vehicle management system\bin\Debug\Vehicle management system.pdb
+E:\HK2_21\Lập trình trên Window HK2_21\DoAnCuoiKi\Vehicle management system\Vehicle management system\bin\Debug\69024-bunifu_ui_v1.52.dll
+E:\HK2_21\Lập trình trên Window HK2_21\DoAnCuoiKi\Vehicle management system\Vehicle management system\bin\Debug\Guna.UI.dll
+E:\HK2_21\Lập trình trên Window HK2_21\DoAnCuoiKi\Vehicle management system\Vehicle management system\obj\Debug\Vehicle_management_system.Form1.resources
+E:\HK2_21\Lập trình trên Window HK2_21\DoAnCuoiKi\Vehicle management system\Vehicle management system\obj\Debug\Vehicle_management_system.Properties.Resources.resources
+E:\HK2_21\Lập trình trên Window HK2_21\DoAnCuoiKi\Vehicle management system\Vehicle management system\obj\Debug\Vehicle management system.csproj.GenerateResource.cache
+E:\HK2_21\Lập trình trên Window HK2_21\DoAnCuoiKi\Vehicle management system\Vehicle management system\obj\Debug\Vehicle management system.csproj.CoreCompileInputs.cache
+E:\HK2_21\Lập trình trên Window HK2_21\DoAnCuoiKi\Vehicle management system\Vehicle management system\obj\Debug\Vehicle management system.csproj.CopyComplete
+E:\HK2_21\Lập trình trên Window HK2_21\DoAnCuoiKi\Vehicle management system\Vehicle management system\obj\Debug\Vehicle management system.exe
+E:\HK2_21\Lập trình trên Window HK2_21\DoAnCuoiKi\Vehicle management system\Vehicle management system\obj\Debug\Vehicle management system.pdb
+E:\HK2_21\Lập trình trên Window HK2_21\DoAnCuoiKi\Vehicle management system\Vehicle management system\bin\Debug\Bunifu_UI_v1.5.3_older.dll
+E:\HK2_21\Lập trình trên Window HK2_21\DoAnCuoiKi\Vehicle management system\Vehicle management system\obj\Debug\Vehicle_management_system.UC_Login.resources
+E:\HK2_21\Lập trình trên Window HK2_21\DoAnCuoiKi\Vehicle management system\Vehicle management system\obj\Debug\Vehicle_management_system.UC_Signin.resources
+E:\HK2_21\Lập trình trên Window HK2_21\DoAnCuoiKi\Vehicle management system\Vehicle management system\obj\Debug\Vehicle management system.csprojAssemblyReference.cache
+E:\HK2_21\Lập trình trên Window HK2_21\DoAnCuoiKi\Vehicle management system\Vehicle management system\obj\Debug\Vehicle_management_system.test.resources
+E:\HK2_21\Lập trình trên Window HK2_21\DoAnCuoiKi\Vehicle management system\Vehicle management system\obj\Debug\Vehicle_management_system.UC_Intro.resources
+E:\HK2_21\Lập trình trên Window HK2_21\DACK_git\Vehicle management system\obj\Debug\Vehicle management system.csprojAssemblyReference.cache
+E:\HK2_21\Lập trình trên Window HK2_21\DACK_git\Vehicle management system\obj\Debug\Vehicle_management_system.Form1.resources
+E:\HK2_21\Lập trình trên Window HK2_21\DACK_git\Vehicle management system\obj\Debug\Vehicle_management_system.Properties.Resources.resources
+E:\HK2_21\Lập trình trên Window HK2_21\DACK_git\Vehicle management system\obj\Debug\Vehicle_management_system.test.resources
+E:\HK2_21\Lập trình trên Window HK2_21\DACK_git\Vehicle management system\obj\Debug\Vehicle_management_system.UC_Intro.resources
+E:\HK2_21\Lập trình trên Window HK2_21\DACK_git\Vehicle management system\obj\Debug\Vehicle_management_system.UC_Login.resources
+E:\HK2_21\Lập trình trên Window HK2_21\DACK_git\Vehicle management system\obj\Debug\Vehicle_management_system.UC_Signin.resources
+E:\HK2_21\Lập trình trên Window HK2_21\DACK_git\Vehicle management system\obj\Debug\Vehicle management system.csproj.GenerateResource.cache
+E:\HK2_21\Lập trình trên Window HK2_21\DACK_git\Vehicle management system\obj\Debug\Vehicle management system.csproj.CoreCompileInputs.cache
+E:\HK2_21\Lập trình trên Window HK2_21\DACK_git\Vehicle management system\obj\Debug\Vehicle management system.exe
+E:\HK2_21\Lập trình trên Window HK2_21\DACK_git\Vehicle management system\obj\Debug\Vehicle management system.pdb
+E:\HK2_21\Lập trình trên Window HK2_21\DACK_git\Vehicle management system\bin\Debug\Vehicle management system.exe.config
+E:\HK2_21\Lập trình trên Window HK2_21\DACK_git\Vehicle management system\bin\Debug\Vehicle management system.exe
+E:\HK2_21\Lập trình trên Window HK2_21\DACK_git\Vehicle management system\bin\Debug\Vehicle management system.pdb
+E:\HK2_21\Lập trình trên Window HK2_21\DACK_git\Vehicle management system\bin\Debug\69024-bunifu_ui_v1.52.dll
+E:\HK2_21\Lập trình trên Window HK2_21\DACK_git\Vehicle management system\bin\Debug\Bunifu_UI_v1.5.3_older.dll
+E:\HK2_21\Lập trình trên Window HK2_21\DACK_git\Vehicle management system\bin\Debug\Guna.UI.dll
+E:\HK2_21\Lập trình trên Window HK2_21\DACK_git\Vehicle management system\obj\Debug\Vehicle management system.csproj.CopyComplete
