@@ -41,5 +41,28 @@ namespace Vehicle_management_system
                 return false;
             }
         }
+
+        public bool verifyAccountUser(string username)
+        {
+            My_DB db = new My_DB();
+
+            SqlDataAdapter adapter = new SqlDataAdapter();
+
+            DataTable table = new DataTable();
+            SqlCommand command = new SqlCommand("SELECT * FROM log WHERE Username = @username", db.GetConnection);
+
+            command.Parameters.Add("@username", SqlDbType.NVarChar).Value = username;
+
+            adapter.SelectCommand = command;
+
+            adapter.Fill(table);
+
+            if (table.Rows.Count > 0)
+            {
+                return false;
+            }
+            else
+                return true;
+        }
     }
 }

@@ -16,7 +16,6 @@ E:\HK2_21\Lập trình trên Window HK2_21\DoAnCuoiKi\Vehicle management system\
 E:\HK2_21\Lập trình trên Window HK2_21\DoAnCuoiKi\Vehicle management system\Vehicle management system\obj\Debug\Vehicle management system.csprojAssemblyReference.cache
 E:\HK2_21\Lập trình trên Window HK2_21\DoAnCuoiKi\Vehicle management system\Vehicle management system\obj\Debug\Vehicle_management_system.test.resources
 E:\HK2_21\Lập trình trên Window HK2_21\DoAnCuoiKi\Vehicle management system\Vehicle management system\obj\Debug\Vehicle_management_system.UC_Intro.resources
-E:\HK2_21\Lập trình trên Window HK2_21\DACK_git\Vehicle management system\obj\Debug\Vehicle management system.csprojAssemblyReference.cache
 E:\HK2_21\Lập trình trên Window HK2_21\DACK_git\Vehicle management system\obj\Debug\Vehicle_management_system.Form1.resources
 E:\HK2_21\Lập trình trên Window HK2_21\DACK_git\Vehicle management system\obj\Debug\Vehicle_management_system.Properties.Resources.resources
 E:\HK2_21\Lập trình trên Window HK2_21\DACK_git\Vehicle management system\obj\Debug\Vehicle_management_system.test.resources

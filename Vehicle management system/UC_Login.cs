@@ -18,9 +18,36 @@ namespace Vehicle_management_system
             InitializeComponent();
         }
 
-        private void UC_Login_Load(object sender, EventArgs e)
+        private void txtUser_Enter(object sender, EventArgs e)
         {
+            if (this.txtUser.Text == "Write your username")
+            {
+                this.txtUser.Text = "";
+                this.txtUser.ForeColor = Color.Black;
+            }
+        }
 
+        private void txtUser_Leave(object sender, EventArgs e)
+        {
+            if (this.txtUser.Text == "")
+            {
+                this.txtUser.Text = "Write your username";
+                this.txtUser.ForeColor = Color.Silver;
+            }
+        }
+
+        private void txtUser_TextChanged(object sender, EventArgs e)
+        {
+            if (this.txtUser.Text != "Write your username")
+            {
+                this.txtUser.Font = new System.Drawing.Font("Times New Roman", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+                this.txtUser.ForeColor = Color.Black;
+            }
+            else
+            {
+                this.txtUser.Font = new System.Drawing.Font("Times New Roman", 8F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+                this.txtUser.ForeColor = Color.Silver;
+            }
         }
 
         private void btnLog_Click(object sender, EventArgs e)
@@ -41,12 +68,10 @@ namespace Vehicle_management_system
 
             if (table.Rows.Count > 0)
             {
-                //MessageBox.Show("OK, next time will be go to Main Menu of App");
                 Form mainForm = new test();
                 this.Hide();
                 mainForm.ShowDialog();
                 this.Show();
-                //this.DialogResult = DialogResult.OK;
             }
             else
             {
@@ -54,26 +79,128 @@ namespace Vehicle_management_system
             }
         }
 
-        private void btnCancel_Click(object sender, EventArgs e)
+        private void lLForgotPass_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            this.Visible = false;
+            My_DB db = new My_DB();
+
+            SqlDataAdapter adapter = new SqlDataAdapter();
+
+            DataTable table = new DataTable();
+            SqlCommand command = new SqlCommand("SELECT * FROM log WHERE Username = @username", db.GetConnection);
+
+            command.Parameters.Add("@username", SqlDbType.NVarChar).Value = this.txtUser.Text;
+
+            adapter.SelectCommand = command;
+
+            adapter.Fill(table);
+
+            if (table.Rows.Count > 0)
+            {
+                string tmp = table.Rows[0]["Password"].ToString();
+                MessageBox.Show("Don't forget your password anymore: \n=> Your pass: " + tmp, "Account usename", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
         }
 
-        private void txtUser_Leave(object sender, EventArgs e)
+        private void txtUserCurr_Enter(object sender, EventArgs e)
         {
-            if (this.txtUser.Text == "")
+            if (this.txtUserCurr.Text == "Write your username")
             {
-                this.txtUser.Text = "Write your username";
-                this.txtUser.ForeColor = Color.Silver;
-            }    
+                this.txtUserCurr.Text = "";
+                this.txtUserCurr.ForeColor = Color.Black;
+            }
         }
 
-        private void txtUser_Enter(object sender, EventArgs e)
+        private void txtUserCurr_Leave(object sender, EventArgs e)
         {
-            if (this.txtUser.Text == "Write your username")
+            if (this.txtUserCurr.Text == "")
             {
-                this.txtUser.Text = "";
-                this.txtUser.ForeColor = Color.Black;
+                this.txtUserCurr.Text = "Write your username";
+                this.txtUserCurr.ForeColor = Color.Silver;
+            }
+        }
+
+        private void txtUserCurr_TextChanged(object sender, EventArgs e)
+        {
+            if (this.txtUserCurr.Text != "Write your username")
+            {
+                this.txtUserCurr.Font = new System.Drawing.Font("Times New Roman", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+                this.txtUserCurr.ForeColor = Color.Black;
+            }
+            else
+            {
+                this.txtUserCurr.Font = new System.Drawing.Font("Times New Roman", 8F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+                this.txtUserCurr.ForeColor = Color.Silver;
+            }
+        }
+
+        private void txtUserNew_Leave(object sender, EventArgs e)
+        {
+            if (this.txtUserNew.Text == "")
+            {
+                this.txtUserNew.Text = "Write your username";
+                this.txtUserNew.ForeColor = Color.Silver;
+            }
+        }
+
+        private void txtUserNew_Enter(object sender, EventArgs e)
+        {
+            if (this.txtUserNew.Text == "Write your username")
+            {
+                this.txtUserNew.Text = "";
+                this.txtUserNew.ForeColor = Color.Black;
+            }
+        }
+
+        private void txtUserNew_TextChanged(object sender, EventArgs e)
+        {
+            if (this.txtUserNew.Text != "Write your username")
+            {
+                this.txtUserNew.Font = new System.Drawing.Font("Times New Roman", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+                this.txtUserNew.ForeColor = Color.Black;
+            }
+            else
+            {
+                this.txtUserNew.Font = new System.Drawing.Font("Times New Roman", 8F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+                this.txtUserNew.ForeColor = Color.Silver;
+            }
+        }
+
+        private void btnConfirm_Click(object sender, EventArgs e)
+        {
+            My_DB db = new My_DB();
+
+            SqlDataAdapter adapter = new SqlDataAdapter();
+
+            DataTable table = new DataTable();
+            SqlCommand command = new SqlCommand("SELECT * FROM log WHERE Username = @username", db.GetConnection);
+
+            command.Parameters.Add("@username", SqlDbType.NVarChar).Value = this.txtUserCurr.Text;
+
+            adapter.SelectCommand = command;
+
+            adapter.Fill(table);
+
+            if (table.Rows.Count > 0)
+            {
+                int id = Convert.ToInt32(table.Rows[0]["ID"]);
+
+                command = new SqlCommand("UPDATE log SET Username = @usernamenew, PASSWORD = @passwordnew WHERE ID = @id", db.GetConnection);
+
+                command.Parameters.Add("@usernamenew", SqlDbType.NVarChar).Value = this.txtUserNew.Text;
+
+                command.Parameters.Add("@passwordnew", SqlDbType.NVarChar).Value = this.txtPassNew.Text;
+
+                command.Parameters.Add("@id", SqlDbType.Int).Value = id;
+
+                adapter.SelectCommand = command;
+
+                adapter.Fill(table);
+
+                MessageBox.Show("Successfully");   
+            }
+            else
+            {
+                MessageBox.Show("Account not exists");
             }
         }
     }

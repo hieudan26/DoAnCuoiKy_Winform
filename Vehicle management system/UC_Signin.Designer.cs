@@ -126,6 +126,7 @@ namespace Vehicle_management_system
             this.txtUser.Size = new System.Drawing.Size(239, 22);
             this.txtUser.TabIndex = 1;
             this.txtUser.Text = "Write your username";
+            this.txtUser.TextChanged += new System.EventHandler(this.txtUser_TextChanged);
             this.txtUser.Enter += new System.EventHandler(this.txtUser_Enter);
             this.txtUser.Leave += new System.EventHandler(this.txtUser_Leave);
             // 
