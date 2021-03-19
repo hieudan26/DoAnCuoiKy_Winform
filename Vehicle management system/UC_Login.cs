@@ -13,6 +13,7 @@ namespace Vehicle_management_system
 {
     public partial class UC_Login : UserControl
     {
+        Form1 f;
         public UC_Login()
         {
             InitializeComponent();
@@ -231,6 +232,13 @@ namespace Vehicle_management_system
         private void btnCancel_Click_1(object sender, EventArgs e)
         {
             this.Visible = false;
+            f.btnLogIn.BaseColor1 = Color.LightGreen;
+            f.btnLogIn.BaseColor2 = Color.DeepSkyBlue;
+            f.btnLogIn.BorderColor = Color.Black;
+        }
+        public void SetParent(Form1 F)
+        {
+            this.f = F;
         }
     }
 }

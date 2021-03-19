@@ -39,10 +39,10 @@ namespace Vehicle_management_system
             this.gunaPictureBox1 = new Guna.UI.WinForms.GunaPictureBox();
             this.label1 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.gunaDateTimePicker1 = new Guna.UI.WinForms.GunaDateTimePicker();
             this.uC_Intro1 = new Vehicle_management_system.UC_Intro();
             this.uC_Signin1 = new Vehicle_management_system.UC_Signin();
             this.uC_Login1 = new Vehicle_management_system.UC_Login();
-            this.gunaDateTimePicker1 = new Guna.UI.WinForms.GunaDateTimePicker();
             this.panel1.SuspendLayout();
             this.panel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.gunaPictureBox1)).BeginInit();
@@ -59,17 +59,19 @@ namespace Vehicle_management_system
             this.panel1.Controls.Add(this.label1);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel1.Location = new System.Drawing.Point(0, 0);
+            this.panel1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(333, 521);
+            this.panel1.Size = new System.Drawing.Size(250, 423);
             this.panel1.TabIndex = 0;
             // 
             // panel3
             // 
             this.panel3.Controls.Add(this.btnSignIn);
             this.panel3.Controls.Add(this.btnLogIn);
-            this.panel3.Location = new System.Drawing.Point(133, 312);
+            this.panel3.Location = new System.Drawing.Point(100, 254);
+            this.panel3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(200, 197);
+            this.panel3.Size = new System.Drawing.Size(150, 160);
             this.panel3.TabIndex = 6;
             // 
             // btnSignIn
@@ -88,7 +90,8 @@ namespace Vehicle_management_system
             this.btnSignIn.ForeColor = System.Drawing.Color.White;
             this.btnSignIn.Image = ((System.Drawing.Image)(resources.GetObject("btnSignIn.Image")));
             this.btnSignIn.ImageSize = new System.Drawing.Size(20, 20);
-            this.btnSignIn.Location = new System.Drawing.Point(21, 120);
+            this.btnSignIn.Location = new System.Drawing.Point(16, 98);
+            this.btnSignIn.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnSignIn.Name = "btnSignIn";
             this.btnSignIn.OnHoverBaseColor1 = System.Drawing.Color.FromArgb(((int)(((byte)(155)))), ((int)(((byte)(145)))), ((int)(((byte)(221)))));
             this.btnSignIn.OnHoverBaseColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(85)))), ((int)(((byte)(255)))));
@@ -97,7 +100,7 @@ namespace Vehicle_management_system
             this.btnSignIn.OnHoverImage = null;
             this.btnSignIn.OnPressedColor = System.Drawing.Color.Black;
             this.btnSignIn.Radius = 25;
-            this.btnSignIn.Size = new System.Drawing.Size(233, 61);
+            this.btnSignIn.Size = new System.Drawing.Size(175, 50);
             this.btnSignIn.TabIndex = 5;
             this.btnSignIn.Text = "SIGN IN";
             this.btnSignIn.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -119,7 +122,8 @@ namespace Vehicle_management_system
             this.btnLogIn.ForeColor = System.Drawing.Color.White;
             this.btnLogIn.Image = ((System.Drawing.Image)(resources.GetObject("btnLogIn.Image")));
             this.btnLogIn.ImageSize = new System.Drawing.Size(20, 20);
-            this.btnLogIn.Location = new System.Drawing.Point(21, 21);
+            this.btnLogIn.Location = new System.Drawing.Point(16, 17);
+            this.btnLogIn.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnLogIn.Name = "btnLogIn";
             this.btnLogIn.OnHoverBaseColor1 = System.Drawing.Color.FromArgb(((int)(((byte)(155)))), ((int)(((byte)(145)))), ((int)(((byte)(221)))));
             this.btnLogIn.OnHoverBaseColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(85)))), ((int)(((byte)(255)))));
@@ -128,7 +132,7 @@ namespace Vehicle_management_system
             this.btnLogIn.OnHoverImage = null;
             this.btnLogIn.OnPressedColor = System.Drawing.Color.Black;
             this.btnLogIn.Radius = 25;
-            this.btnLogIn.Size = new System.Drawing.Size(233, 61);
+            this.btnLogIn.Size = new System.Drawing.Size(175, 50);
             this.btnLogIn.TabIndex = 4;
             this.btnLogIn.Text = "LOG IN";
             this.btnLogIn.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -138,9 +142,10 @@ namespace Vehicle_management_system
             // 
             this.gunaLinkLabel1.AutoSize = true;
             this.gunaLinkLabel1.Font = new System.Drawing.Font("Times New Roman", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Italic | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.gunaLinkLabel1.Location = new System.Drawing.Point(13, 470);
+            this.gunaLinkLabel1.Location = new System.Drawing.Point(10, 382);
+            this.gunaLinkLabel1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.gunaLinkLabel1.Name = "gunaLinkLabel1";
-            this.gunaLinkLabel1.Size = new System.Drawing.Size(46, 17);
+            this.gunaLinkLabel1.Size = new System.Drawing.Size(36, 15);
             this.gunaLinkLabel1.TabIndex = 5;
             this.gunaLinkLabel1.TabStop = true;
             this.gunaLinkLabel1.Text = "Help?";
@@ -160,7 +165,7 @@ namespace Vehicle_management_system
             this.btnExit.ForeColor = System.Drawing.Color.White;
             this.btnExit.Image = ((System.Drawing.Image)(resources.GetObject("btnExit.Image")));
             this.btnExit.ImageSize = new System.Drawing.Size(20, 20);
-            this.btnExit.Location = new System.Drawing.Point(-36, 381);
+            this.btnExit.Location = new System.Drawing.Point(-27, 310);
             this.btnExit.Margin = new System.Windows.Forms.Padding(0);
             this.btnExit.Name = "btnExit";
             this.btnExit.OnHoverBaseColor1 = System.Drawing.Color.FromArgb(((int)(((byte)(155)))), ((int)(((byte)(145)))), ((int)(((byte)(221)))));
@@ -170,7 +175,7 @@ namespace Vehicle_management_system
             this.btnExit.OnHoverImage = null;
             this.btnExit.OnPressedColor = System.Drawing.Color.Black;
             this.btnExit.Radius = 20;
-            this.btnExit.Size = new System.Drawing.Size(121, 51);
+            this.btnExit.Size = new System.Drawing.Size(91, 41);
             this.btnExit.TabIndex = 4;
             this.btnExit.Text = "EXIT";
             this.btnExit.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -181,9 +186,10 @@ namespace Vehicle_management_system
             this.gunaPictureBox1.BackColor = System.Drawing.Color.Transparent;
             this.gunaPictureBox1.BaseColor = System.Drawing.Color.White;
             this.gunaPictureBox1.Image = global::Vehicle_management_system.Properties.Resources.car;
-            this.gunaPictureBox1.Location = new System.Drawing.Point(47, 48);
+            this.gunaPictureBox1.Location = new System.Drawing.Point(35, 39);
+            this.gunaPictureBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.gunaPictureBox1.Name = "gunaPictureBox1";
-            this.gunaPictureBox1.Size = new System.Drawing.Size(235, 158);
+            this.gunaPictureBox1.Size = new System.Drawing.Size(176, 128);
             this.gunaPictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.gunaPictureBox1.TabIndex = 3;
             this.gunaPictureBox1.TabStop = false;
@@ -192,9 +198,10 @@ namespace Vehicle_management_system
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Tempus Sans ITC", 34.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(3, 218);
+            this.label1.Location = new System.Drawing.Point(2, 177);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(322, 76);
+            this.label1.Size = new System.Drawing.Size(263, 61);
             this.label1.TabIndex = 1;
             this.label1.Text = "WELCOME";
             // 
@@ -203,33 +210,11 @@ namespace Vehicle_management_system
             this.panel2.Controls.Add(this.uC_Intro1);
             this.panel2.Controls.Add(this.uC_Signin1);
             this.panel2.Controls.Add(this.uC_Login1);
-            this.panel2.Location = new System.Drawing.Point(362, 48);
+            this.panel2.Location = new System.Drawing.Point(272, 39);
+            this.panel2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(450, 420);
+            this.panel2.Size = new System.Drawing.Size(338, 341);
             this.panel2.TabIndex = 1;
-            // 
-            // uC_Intro1
-            // 
-            this.uC_Intro1.Location = new System.Drawing.Point(-9, -3);
-            this.uC_Intro1.Name = "uC_Intro1";
-            this.uC_Intro1.Size = new System.Drawing.Size(529, 473);
-            this.uC_Intro1.TabIndex = 2;
-            // 
-            // uC_Signin1
-            // 
-            this.uC_Signin1.BackColor = System.Drawing.Color.LavenderBlush;
-            this.uC_Signin1.Location = new System.Drawing.Point(-23, -3);
-            this.uC_Signin1.Name = "uC_Signin1";
-            this.uC_Signin1.Size = new System.Drawing.Size(522, 423);
-            this.uC_Signin1.TabIndex = 1;
-            // 
-            // uC_Login1
-            // 
-            this.uC_Login1.BackColor = System.Drawing.Color.LavenderBlush;
-            this.uC_Login1.Location = new System.Drawing.Point(-9, 0);
-            this.uC_Login1.Name = "uC_Login1";
-            this.uC_Login1.Size = new System.Drawing.Size(471, 423);
-            this.uC_Login1.TabIndex = 0;
             // 
             // gunaDateTimePicker1
             // 
@@ -242,7 +227,8 @@ namespace Vehicle_management_system
             this.gunaDateTimePicker1.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.gunaDateTimePicker1.ForeColor = System.Drawing.Color.Black;
             this.gunaDateTimePicker1.Format = System.Windows.Forms.DateTimePickerFormat.Time;
-            this.gunaDateTimePicker1.Location = new System.Drawing.Point(526, 9);
+            this.gunaDateTimePicker1.Location = new System.Drawing.Point(394, 7);
+            this.gunaDateTimePicker1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.gunaDateTimePicker1.MaxDate = new System.DateTime(9998, 12, 31, 0, 0, 0, 0);
             this.gunaDateTimePicker1.MinDate = new System.DateTime(1753, 1, 1, 0, 0, 0, 0);
             this.gunaDateTimePicker1.Name = "gunaDateTimePicker1";
@@ -251,22 +237,52 @@ namespace Vehicle_management_system
             this.gunaDateTimePicker1.OnHoverForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
             this.gunaDateTimePicker1.OnPressedColor = System.Drawing.Color.Black;
             this.gunaDateTimePicker1.Radius = 10;
-            this.gunaDateTimePicker1.Size = new System.Drawing.Size(156, 30);
+            this.gunaDateTimePicker1.Size = new System.Drawing.Size(117, 24);
             this.gunaDateTimePicker1.TabIndex = 2;
             this.gunaDateTimePicker1.Text = "8:27:56 AM";
             this.gunaDateTimePicker1.Value = new System.DateTime(2021, 3, 16, 8, 27, 56, 351);
             // 
+            // uC_Intro1
+            // 
+            this.uC_Intro1.Location = new System.Drawing.Point(-7, -4);
+            this.uC_Intro1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.uC_Intro1.Name = "uC_Intro1";
+            this.uC_Intro1.Size = new System.Drawing.Size(375, 386);
+            this.uC_Intro1.TabIndex = 2;
+            this.uC_Intro1.Load += new System.EventHandler(this.uC_Intro1_Load);
+            // 
+            // uC_Signin1
+            // 
+            this.uC_Signin1.BackColor = System.Drawing.Color.LavenderBlush;
+            this.uC_Signin1.Location = new System.Drawing.Point(-17, 0);
+            this.uC_Signin1.Margin = new System.Windows.Forms.Padding(2);
+            this.uC_Signin1.Name = "uC_Signin1";
+            this.uC_Signin1.Size = new System.Drawing.Size(355, 342);
+            this.uC_Signin1.TabIndex = 1;
+            this.uC_Signin1.Load += new System.EventHandler(this.uC_Signin1_Load);
+            // 
+            // uC_Login1
+            // 
+            this.uC_Login1.BackColor = System.Drawing.Color.LavenderBlush;
+            this.uC_Login1.Location = new System.Drawing.Point(-7, 0);
+            this.uC_Login1.Margin = new System.Windows.Forms.Padding(2);
+            this.uC_Login1.Name = "uC_Login1";
+            this.uC_Login1.Size = new System.Drawing.Size(353, 344);
+            this.uC_Login1.TabIndex = 0;
+            this.uC_Login1.Load += new System.EventHandler(this.uC_Login1_Load);
+            // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.DimGray;
-            this.ClientSize = new System.Drawing.Size(836, 521);
+            this.ClientSize = new System.Drawing.Size(627, 423);
             this.Controls.Add(this.gunaDateTimePicker1);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.KeyPreview = true;
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Login";
@@ -293,8 +309,8 @@ namespace Vehicle_management_system
         private Guna.UI.WinForms.GunaGradientButton btnExit;
         private Guna.UI.WinForms.GunaDateTimePicker gunaDateTimePicker1;
         private System.Windows.Forms.Panel panel3;
-        private Guna.UI.WinForms.GunaGradientButton btnSignIn;
-        private Guna.UI.WinForms.GunaGradientButton btnLogIn;
+        public Guna.UI.WinForms.GunaGradientButton btnLogIn;
+        public Guna.UI.WinForms.GunaGradientButton btnSignIn;
     }
 }
 

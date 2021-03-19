@@ -39,3 +39,23 @@ E:\HK2_21\Lập trình trên Window HK2_21\DACK_git\Vehicle management system\ob
 E:\HK2_21\Lập trình trên Window HK2_21\DACK_git\Vehicle management system\bin\Debug\Interop.WMPLib.dll
 E:\HK2_21\Lập trình trên Window HK2_21\DACK_git\Vehicle management system\bin\Debug\AxInterop.WMPLib.dll
 E:\HK2_21\Lập trình trên Window HK2_21\DACK_git\Vehicle management system\obj\Debug\Vehicle management system.csprojAssemblyReference.cache
+D:\HK2N2\WIndow\CK\Vehicle management system\bin\Debug\Vehicle management system.exe.config
+D:\HK2N2\WIndow\CK\Vehicle management system\bin\Debug\Vehicle management system.exe
+D:\HK2N2\WIndow\CK\Vehicle management system\bin\Debug\Vehicle management system.pdb
+D:\HK2N2\WIndow\CK\Vehicle management system\bin\Debug\Interop.WMPLib.dll
+D:\HK2N2\WIndow\CK\Vehicle management system\bin\Debug\AxInterop.WMPLib.dll
+D:\HK2N2\WIndow\CK\Vehicle management system\obj\Debug\Vehicle management system.csprojAssemblyReference.cache
+D:\HK2N2\WIndow\CK\Vehicle management system\obj\Debug\Interop.WMPLib.dll
+D:\HK2N2\WIndow\CK\Vehicle management system\obj\Debug\AxInterop.WMPLib.dll
+D:\HK2N2\WIndow\CK\Vehicle management system\obj\Debug\Vehicle management system.csproj.ResolveComReference.cache
+D:\HK2N2\WIndow\CK\Vehicle management system\obj\Debug\Vehicle_management_system.Form1.resources
+D:\HK2N2\WIndow\CK\Vehicle management system\obj\Debug\Vehicle_management_system.Properties.Resources.resources
+D:\HK2N2\WIndow\CK\Vehicle management system\obj\Debug\Vehicle_management_system.test.resources
+D:\HK2N2\WIndow\CK\Vehicle management system\obj\Debug\Vehicle_management_system.UC_Intro.resources
+D:\HK2N2\WIndow\CK\Vehicle management system\obj\Debug\Vehicle_management_system.UC_Login.resources
+D:\HK2N2\WIndow\CK\Vehicle management system\obj\Debug\Vehicle_management_system.UC_Signin.resources
+D:\HK2N2\WIndow\CK\Vehicle management system\obj\Debug\Vehicle management system.csproj.GenerateResource.cache
+D:\HK2N2\WIndow\CK\Vehicle management system\obj\Debug\Vehicle management system.csproj.CoreCompileInputs.cache
+D:\HK2N2\WIndow\CK\Vehicle management system\obj\Debug\Vehicle management system.csproj.CopyComplete
+D:\HK2N2\WIndow\CK\Vehicle management system\obj\Debug\Vehicle management system.exe
+D:\HK2N2\WIndow\CK\Vehicle management system\obj\Debug\Vehicle management system.pdb
