@@ -210,9 +210,9 @@ namespace Vehicle_management_system
             // 
             // uC_Intro1
             // 
-            this.uC_Intro1.Location = new System.Drawing.Point(0, 0);
+            this.uC_Intro1.Location = new System.Drawing.Point(-9, -3);
             this.uC_Intro1.Name = "uC_Intro1";
-            this.uC_Intro1.Size = new System.Drawing.Size(529, 461);
+            this.uC_Intro1.Size = new System.Drawing.Size(529, 473);
             this.uC_Intro1.TabIndex = 2;
             // 
             // uC_Signin1

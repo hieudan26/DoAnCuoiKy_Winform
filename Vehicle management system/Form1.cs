@@ -36,6 +36,7 @@ namespace Vehicle_management_system
         private void btnLogIn_Click_1(object sender, EventArgs e)
         {
             this.uC_Login1.Visible = true;
+            this.uC_Signin1.Visible = false;
             if (this.btnSignIn.BaseColor1 == Color.DimGray)
             {
                 this.btnSignIn.BaseColor1 = Color.LightPink;
@@ -52,6 +53,7 @@ namespace Vehicle_management_system
         private void btnSignIn_Click(object sender, EventArgs e)
         {
             this.uC_Signin1.Visible = true;
+            this.uC_Login1.Visible = false;
             if (this.btnLogIn.BaseColor1 == Color.DimGray)
             {
                 this.btnLogIn.BaseColor1 = Color.LightGreen;

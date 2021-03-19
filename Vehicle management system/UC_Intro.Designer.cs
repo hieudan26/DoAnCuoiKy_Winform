@@ -35,11 +35,11 @@ namespace Vehicle_management_system
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Image = global::Vehicle_management_system.Properties.Resources.Loading;
+            this.pictureBox1.Image = global::Vehicle_management_system.Properties.Resources.car_wash_machine;
             this.pictureBox1.Location = new System.Drawing.Point(3, 3);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(443, 303);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.Size = new System.Drawing.Size(475, 362);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             // 
@@ -49,7 +49,7 @@ namespace Vehicle_management_system
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.pictureBox1);
             this.Name = "UC_Intro";
-            this.Size = new System.Drawing.Size(446, 316);
+            this.Size = new System.Drawing.Size(478, 365);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 

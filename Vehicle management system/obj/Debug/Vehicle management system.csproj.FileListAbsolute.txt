@@ -33,3 +33,9 @@ E:\HK2_21\Lập trình trên Window HK2_21\DACK_git\Vehicle management system\bi
 E:\HK2_21\Lập trình trên Window HK2_21\DACK_git\Vehicle management system\bin\Debug\Bunifu_UI_v1.5.3_older.dll
 E:\HK2_21\Lập trình trên Window HK2_21\DACK_git\Vehicle management system\bin\Debug\Guna.UI.dll
 E:\HK2_21\Lập trình trên Window HK2_21\DACK_git\Vehicle management system\obj\Debug\Vehicle management system.csproj.CopyComplete
+E:\HK2_21\Lập trình trên Window HK2_21\DACK_git\Vehicle management system\obj\Debug\Interop.WMPLib.dll
+E:\HK2_21\Lập trình trên Window HK2_21\DACK_git\Vehicle management system\obj\Debug\AxInterop.WMPLib.dll
+E:\HK2_21\Lập trình trên Window HK2_21\DACK_git\Vehicle management system\obj\Debug\Vehicle management system.csproj.ResolveComReference.cache
+E:\HK2_21\Lập trình trên Window HK2_21\DACK_git\Vehicle management system\bin\Debug\Interop.WMPLib.dll
+E:\HK2_21\Lập trình trên Window HK2_21\DACK_git\Vehicle management system\bin\Debug\AxInterop.WMPLib.dll
+E:\HK2_21\Lập trình trên Window HK2_21\DACK_git\Vehicle management system\obj\Debug\Vehicle management system.csprojAssemblyReference.cache

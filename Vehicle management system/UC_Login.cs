@@ -196,12 +196,41 @@ namespace Vehicle_management_system
 
                 adapter.Fill(table);
 
-                MessageBox.Show("Successfully");   
+                //check
+
+
+                SqlDataAdapter adapter2 = new SqlDataAdapter();
+
+                DataTable table2 = new DataTable();
+                SqlCommand command2 = new SqlCommand("SELECT Username FROM log WHERE ID = " + id, db.GetConnection);
+
+                adapter2.SelectCommand = command2;
+
+                adapter2.Fill(table2);
+
+                if (table2.Rows.Count > 0)
+                {
+                    MessageBox.Show("Successfully");
+                }
+                else
+                {
+                    MessageBox.Show("Unsuccessfully");
+                }
             }
             else
             {
                 MessageBox.Show("Account not exists");
             }
+        }
+
+        private void btnCancel_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnCancel_Click_1(object sender, EventArgs e)
+        {
+            this.Visible = false;
         }
     }
 }

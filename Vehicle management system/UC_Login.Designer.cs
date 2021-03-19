@@ -55,6 +55,7 @@ namespace Vehicle_management_system
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.tabControl1 = new System.Windows.Forms.TabControl();
+            this.btnCancel = new System.Windows.Forms.Button();
             this.tabPage2.SuspendLayout();
             this.panel3.SuspendLayout();
             this.panel4.SuspendLayout();
@@ -222,17 +223,16 @@ namespace Vehicle_management_system
             // radioButton2
             // 
             this.radioButton2.AutoSize = true;
-            this.radioButton2.Checked = true;
             this.radioButton2.Location = new System.Drawing.Point(282, 139);
             this.radioButton2.Name = "radioButton2";
             this.radioButton2.Size = new System.Drawing.Size(68, 21);
             this.radioButton2.TabIndex = 12;
-            this.radioButton2.TabStop = true;
             this.radioButton2.Text = "Admin";
             this.radioButton2.UseVisualStyleBackColor = true;
             // 
             // panel2
             // 
+            this.panel2.Controls.Add(this.btnCancel);
             this.panel2.Controls.Add(this.lLForgotPass);
             this.panel2.Controls.Add(this.btnLog);
             this.panel2.Location = new System.Drawing.Point(6, 300);
@@ -256,7 +256,7 @@ namespace Vehicle_management_system
             // 
             this.btnLog.BackColor = System.Drawing.Color.Honeydew;
             this.btnLog.Font = new System.Drawing.Font("Times New Roman", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnLog.Location = new System.Drawing.Point(136, 19);
+            this.btnLog.Location = new System.Drawing.Point(247, 19);
             this.btnLog.Name = "btnLog";
             this.btnLog.Size = new System.Drawing.Size(165, 49);
             this.btnLog.TabIndex = 3;
@@ -350,6 +350,18 @@ namespace Vehicle_management_system
             this.tabControl1.TabIndex = 0;
             this.tabControl1.Tag = "";
             // 
+            // btnCancel
+            // 
+            this.btnCancel.BackColor = System.Drawing.Color.DarkTurquoise;
+            this.btnCancel.Font = new System.Drawing.Font("Times New Roman", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCancel.Location = new System.Drawing.Point(29, 19);
+            this.btnCancel.Name = "btnCancel";
+            this.btnCancel.Size = new System.Drawing.Size(165, 49);
+            this.btnCancel.TabIndex = 10;
+            this.btnCancel.Text = "CANCEL";
+            this.btnCancel.UseVisualStyleBackColor = false;
+            this.btnCancel.Click += new System.EventHandler(this.btnCancel_Click_1);
+            // 
             // UC_Login
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -402,5 +414,6 @@ namespace Vehicle_management_system
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TabControl tabControl1;
+        private System.Windows.Forms.Button btnCancel;
     }
 }
