@@ -79,5 +79,20 @@ namespace Vehicle_management_system
                 e.Cancel = true;
             }
         }
+
+        private void uC_Intro1_Load(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void uC_Signin1_Load(object sender, EventArgs e)
+        {
+            this.uC_Signin1.SetParent(this);   
+        }
+
+        private void uC_Login1_Load(object sender, EventArgs e)
+        {
+            this.uC_Login1.SetParent(this);
+        }
     }
 }

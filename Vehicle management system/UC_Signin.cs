@@ -12,6 +12,7 @@ namespace Vehicle_management_system
 {
     public partial class UC_Signin : UserControl
     {
+        Form1 f;
         public UC_Signin()
         {
             InitializeComponent();
@@ -121,6 +122,9 @@ namespace Vehicle_management_system
         private void btnCancel_Click(object sender, EventArgs e)
         {
             this.Visible = false;
+            f.btnSignIn.BaseColor1 = Color.LightPink;
+            f.btnSignIn.BaseColor2 = Color.LightBlue;
+            f.btnSignIn.BorderColor = Color.Black;
         }
 
         private void txtUser_Leave(object sender, EventArgs e)
@@ -153,6 +157,10 @@ namespace Vehicle_management_system
                 this.txtUser.Font = new System.Drawing.Font("Times New Roman", 8F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
                 this.txtUser.ForeColor = Color.Silver;
             }
+        }
+        public void SetParent(Form1 F)
+        {
+            this.f = F;
         }
     }
 }
